@@ -1,0 +1,12 @@
+language: java
+
+dist: trusty
+sudo: false
+
+jdk:
+  - openjdk8
+  - oraclejdk8
+
+script:
+  - ./gradlew --version
+  - ./gradlew test
